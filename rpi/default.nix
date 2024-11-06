@@ -13,7 +13,7 @@ in
   options = with lib; {
     raspberry-pi-nix = {
       kernel-version = mkOption {
-        default = "v6_6_54";
+        default = "v6_6_59";
         type = types.str;
         description = "Kernel version to build.";
       };
